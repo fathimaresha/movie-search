@@ -60,20 +60,22 @@
                 Runtime = (movieDetails.Type === 'series')? `${movieDetails.Runtime}/episodes`: `${movieDetails.Runtime}`;
 
                 movieData2 = `
-                <h1 class="text-dark h1">${movieDetails.Title}</h1>
+                <h1 class="text-light  h1">${movieDetails.Title}</h1>
                 
                 <div class="d-flex">
                    
                    
                 </div>
-                <h4 class = 'text-dark h4'>${movieDetails.Year}</h4>
-                <span class = 'text-dark mx-2 mt-1'>${movieDetails.Type} (${Runtime})</span>
-                <h6 class = 'text-dark h5 my-2'>Genre : ${movieDetails.Genre}</h6>
-                <h6 class = 'text-dark h5 my-2'>Language : ${movieDetails.Language}</h6>
-                <h6 class = 'text-dark h5 my-2'>Release Date : ${movieDetails.Released}</h6>
-                <h6 class = 'text-dark h5 my-2'>Director : ${movieDetails.Director}</h6>
-                <h6 class = 'text-dark h5 my-2'>Writer : ${movieDetails.Writer}</h6>
-                <p class =  'text-dark h5 my-2'>Plot : ${movieDetails.Plot}</p>
+                <h4 class = 'text-light h4'>${movieDetails.Year}</h4>
+                <span class = 'text-light mx-2 mt-1'>${movieDetails.Type} (${Runtime})</span>
+                <h6 class = 'text-light  h5 my-2'>Genre : ${movieDetails.Genre}</h6>
+                <h6 class = 'text-light  h5 my-2'>Language : ${movieDetails.Language}</h6>
+                <h6 class = 'text-light  h5 my-2'>Language : ${movieDetails.Language}</h6>
+                <h6 class = 'text-light  h5 my-2'>Language : ${movieDetails.Language}</h6>
+                <h6 class = 'text-light  h5 my-2'>Release Date : ${movieDetails.Released}</h6>
+                <h6 class = 'text-light  h5 my-2'>Director : ${movieDetails.Director}</h6>
+                <h6 class = 'text-light  h5 my-2'>Writer : ${movieDetails.Writer}</h6>
+                <p class =  'text-light  h5 my-2'>Plot : ${movieDetails.Plot}</p>
                 `
                 section2.innerHTML = movieData2;
                 form.reset();  

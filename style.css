@@ -7,4 +7,17 @@ h1{
 .text-dark h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
+}
+.text-light{
+    text-align: center;
+    color: azure;
+}
+.movieDetails.Title{
+    color: aqua;
+}
+.movieDetails.Poster img{
+    max-width: 300px;
+    margin: 0%;
+    border: 4 color(white red green blue);
+}
 
